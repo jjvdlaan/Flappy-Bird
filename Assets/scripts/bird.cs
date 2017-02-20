@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bird : MonoBehaviour  {
+public class bird : MonoBehaviour   {
 
     // Upwards force of flap.
     public float upForce = 200f;
