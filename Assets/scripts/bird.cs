@@ -27,7 +27,7 @@ public class bird : MonoBehaviour {
             {
                 // Reset velocisty to 0.
                 rb2d.velocity = Vector2.zero;
-                rb2d.AddForce(new Vector2(0, upForce));
+                rb2d.AddForce(new Vector2(0, upForce*10));
                 anim.SetTrigger("flap");
             }
         }
